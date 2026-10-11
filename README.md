@@ -1,5 +1,13 @@
 # 🎮 Achievements
 
+> [!NOTE]
+> **Personal-use fork — not an official release.**
+>
+> This repository is a fork of [PSerban93/Achievements](https://github.com/PSerban93/Achievements), maintained for personal use only. It is not affiliated with or endorsed by the original author, and no support or warranty is provided here.
+>
+> All modifications in this fork were made by AI. The original project remains MIT licensed and all credit belongs to its author — please report issues and feature requests upstream.
+
+
 A desktop application built with Electron that monitors running games and displays achievement notifications for:
 
 - ✅ Achievement unlocks
