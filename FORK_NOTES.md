@@ -3,6 +3,8 @@
 - 上游：`https://github.com/PSerban93/Achievements`（MIT 许可证）
 - 本 fork 基线：上游 `main` @ `a43eaf3`（版本 `1.3.1-beta.2`，2026-10-04）
 - Fork 时间：2026-10-12
+- 上游同步状态：已与上游 `main` @ `a43eaf3` 拉齐（GitHub merge-upstream 返回 "This branch is not behind the upstream"）
+- 改动来源：本 fork 中的修改由 AI 完成
 
 ## 已完成的改动
 
@@ -11,6 +13,7 @@
 | `package.json` → `build.publish.owner` | `PSerban93` → `saiyajiang` | 不改的话客户端会去**上游仓库**拉更新，等于把更新通道交给别人 |
 | `package.json` → `build.appId` | `com.achievements.app` → `com.saiyajiang.achievements` | 避免与上游安装包冲突 |
 | `package.json` → `build.copyright` | 保留 `Copyright © 2025 JokerVerse`，追加 fork 维护者说明 | MIT 要求保留原版权声明 |
+| `README.md` | 顶部新增声明：个人自用 fork、非官方发布、改动由 AI 完成 | 避免他人误以为是官方版本 |
 
 ## 待办（需要时再处理）
 
