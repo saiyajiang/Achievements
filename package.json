@@ -38,9 +38,9 @@
     "dist:unsigned": "npm run prepare:recorder && npm run dl-browsers && npm run prepare:process-tree && npm run verify:san-runtime && electron-builder --win --x64 --publish never --config.win.signExecutable=false --config.forceCodeSigning=false && npm run verify:packaged-recorder && npm run verify:packaged-hdr-screenshot"
   },
   "build": {
-    "appId": "com.achievements.app",
+    "appId": "com.saiyajiang.achievements",
     "productName": "Achievements",
-    "copyright": "Copyright © 2025 JokerVerse",
+    "copyright": "Copyright © 2025 JokerVerse; fork maintained by saiyajiang",
     "npmRebuild": false,
     "asarUnpack": [
       "utils/**",
@@ -151,7 +151,7 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "PSerban93",
+        "owner": "saiyajiang",
         "repo": "Achievements"
       }
     ],
